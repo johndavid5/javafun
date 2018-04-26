@@ -5,6 +5,7 @@
 */
 public enum Planet {
     // PLANET ( mass(kg), radius(m) )
+    THE_SUN (1.98855e+30, 695.700e6),
     MERCURY (3.303e+23, 2.4397e6),
     VENUS   (4.869e+24, 6.0518e6),
     EARTH   (5.976e+24, 6.37814e6),
@@ -16,6 +17,22 @@ public enum Planet {
     NEPTUNE (1.024e+26, 2.4746e7),
     PLUTO (1.303e+22, 1.188e6)
     ;
+
+    // https://en.wikipedia.org/wiki/Sun
+    // Equatorial radius	695,700 km,[6] = 695.700 x 10^3 x 10^3 m = 695.700 x 10^6 m
+    // 696,392 km[7]
+    // 109 × Earth[8]
+    //
+    // Mass	(1.98855±0.00025)×10^30 kg[1] = 1.98855 x 10^30 kg 
+    // 333,000 × Earth[1]
+    // Average density	1.408 g/cm3[1][8][9]
+    // 0.255 × Earth[1][8]
+    // Center density (modeled)	162.2 g/cm3[1]
+    // 12.4 × Earth
+    // Equatorial surface gravity	274.0 m/s2[1]
+    // 27.94 g
+    // 27,542.29 cgs
+    // 28 × Earth[8]
 
     //https://en.wikipedia.org/wiki/Moon
     // Mean radius
@@ -83,7 +100,7 @@ public enum Planet {
         System.out.printf("%n");
 
         for (Planet p : Planet.values())
-           System.out.printf("Your weight on %8s is %6.2f pounds = %2.4f of your earthweight.%n",
+           System.out.printf("Your weight on %8s is %7.2f pounds = %2.4f of your earthweight.%n",
                              p, p.surfaceWeight(mass), p.surfaceWeight(mass)/earthWeight);
     }
 }
