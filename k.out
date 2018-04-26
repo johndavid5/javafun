@@ -1,0 +1,13 @@
+earthweight = 220.000000 pounds
+mass = earthWeight / EARTH.surfaceGravity() = 220.000000/9.802653 = 22.442905 lbs-sec^2/m 
+
+Your weight on  MERCURY is  83.11 pounds = 0.3778 of your earthweight.
+Your weight on    VENUS is 199.10 pounds = 0.9050 of your earthweight.
+Your weight on    EARTH is 220.00 pounds = 1.0000 of your earthweight.
+Your weight on THE_MOON is  36.44 pounds = 0.1656 of your earthweight.
+Your weight on     MARS is  83.32 pounds = 0.3787 of your earthweight.
+Your weight on  JUPITER is 556.72 pounds = 2.5306 of your earthweight.
+Your weight on   SATURN is 234.52 pounds = 1.0660 of your earthweight.
+Your weight on   URANUS is 199.13 pounds = 0.9051 of your earthweight.
+Your weight on  NEPTUNE is 250.43 pounds = 1.1383 of your earthweight.
+Your weight on    PLUTO is  13.83 pounds = 0.0628 of your earthweight.
